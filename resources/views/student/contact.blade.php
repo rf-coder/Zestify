@@ -18,7 +18,7 @@
     <section class="contact-form py-5">
         <div class="container">
             <h2 class="text-center">Contact Form</h2>
-            <form action="#" method="POST">
+            <form action="#" >
                 @csrf
                 <div class="row">
                     <div class="col-md-6 mb-4">
@@ -38,7 +38,7 @@
                     <label for="message">Message</label>
                     <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Send Message</button>
+                <button class="btn btn-primary">Send Message</button>
             </form>
         </div>
     </section>
@@ -52,7 +52,8 @@
         <p>Phone: <a href="tel:+922112345678">+92 21 1234 5678</a></p>
         <p>Address: 123 Zestify Lane, Karachi, Pakistan</p>
     </div>
-    <button id="goTopBtn" class="go-top">Top</button>
+    <button id="goTopBtn" class="go-top"><i class="fas fa-arrow-up"></i></button>
+
     </section>
 
    

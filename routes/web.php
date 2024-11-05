@@ -23,5 +23,6 @@ Route::get('/', [WebController::class, 'index'])->name('index');
 Route::get('/products', [WebController::class, 'products'])->name('products');
 Route::get('/contact', [WebController::class, 'contact'])->name('contact');
 Route::get('/cart', [WebController::class, 'cart'])->name('cart');
+Route::get('/product_detail', [WebController::class, 'detail'])->name('detail');
 
 require __DIR__.'/auth.php';

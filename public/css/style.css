@@ -182,3 +182,45 @@ label {
     background-color:rgb(232, 19, 232);
 }
 
+/* Ensuring no overflow of content */
+header {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* On smaller screens, adjust the logo and nav layout */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .nav-item {
+        margin-bottom: 10px; /* Space between links */
+    }
+
+    .logo {
+        margin-right: 0;
+        justify-content: center;
+        width: 100%; /* Ensures logo stays centered */
+    }
+
+    .logo-text {
+        font-size: 1.5rem; /* Adjust logo text size for smaller screens */
+    }
+}
+
+/* Optional: Space out the nav items */
+.nav-link {
+    padding: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 120%;
+}
+
+.navbar-custom {
+    background-color: #E3BFC6;
+}
+

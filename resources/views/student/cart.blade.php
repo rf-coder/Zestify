@@ -79,7 +79,8 @@
                 <a href="#" class="btn btn-primary">Proceed to Checkout</a>
             </div>
         </div>
-        <button id="goTopBtn" class="go-top" >Top</button>
+        <button id="goTopBtn" class="go-top"><i class="fas fa-arrow-up"></i></button>
+
 
     </section>
 @endsection

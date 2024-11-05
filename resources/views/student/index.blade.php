@@ -32,7 +32,14 @@
                             <h5 class="card-title">Baddie Berry</h5>
                             <p class="card-text">Rs. 2999/-</p>
                             <!-- Button to add the product to the cart -->
-                            <a href="#" class="btn btn-success">Add to Cart</a>
+                            <a href="#" class="btn btn-primary d-flex align-items-center">
+    <i class="fas fa-shopping-cart me-2"></i> <!-- Shopping cart icon -->
+    <p></p>Add to Cart
+</a><br>
+<a href="{{ route('detail') }}" class="btn btn-secondary d-flex align-items-center">
+    <i class="fas fa-eye me-2"></i> <!-- Eye icon for view -->
+    View Product
+</a>
                         </div>
                     </div>
                 </div>
@@ -46,7 +53,14 @@
                             <h5 class="card-title">Glow Up Elixir</h5>
                             <p class="card-text">Rs. 3499/-</p>
                             <!-- Button to add the product to the cart -->
-                            <a href="#" class="btn btn-success">Add to Cart</a>
+                            <a href="#" class="btn btn-primary d-flex align-items-center">
+    <i class="fas fa-shopping-cart me-2"></i> <!-- Shopping cart icon -->
+    <p></p>Add to Cart
+</a><br>
+<a href="{{ route('detail') }}" class="btn btn-secondary d-flex align-items-center">
+    <i class="fas fa-eye me-2"></i> <!-- Eye icon for view -->
+    View Product
+</a>
                         </div>
                     </div>
                 </div>
@@ -60,7 +74,14 @@
                             <h5 class="card-title">SunKissed Tint</h5>
                             <p class="card-text">Rs 1799/-</p>
                             <!-- Button to add the product to the cart -->
-                            <a href="#" class="btn btn-success">Add to Cart</a>
+                            <a href="#" class="btn btn-primary d-flex align-items-center">
+    <i class="fas fa-shopping-cart me-2"></i> <!-- Shopping cart icon -->
+    <p></p>Add to Cart
+</a><br>
+<a href="{{ route('detail') }}" class="btn btn-secondary d-flex align-items-center">
+    <i class="fas fa-eye me-2"></i> <!-- Eye icon for view -->
+    View Product
+</a>
                         </div>
                     </div>
                 </div>
@@ -68,7 +89,8 @@
             </div>
         </div>
         <!-- Button to scroll back to the top of the page -->
-        <button id="goTopBtn" class="go-top" >Top</button>
+        <button id="goTopBtn" class="go-top"><i class="fas fa-arrow-up"></i></button>
+
 
     </section>
 @endsection
