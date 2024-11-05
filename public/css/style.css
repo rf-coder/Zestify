@@ -217,10 +217,15 @@ header {
     padding: 0 15px;
     text-decoration: none;
     font-weight: 500;
-    font-size: 120%;
+    font-size: 130%;
 }
 
 .navbar-custom {
     background-color: #E3BFC6;
+}
+
+
+.logo {
+    text-decoration: none !important; /* Removes underline for the entire link */
 }
 

@@ -54,25 +54,30 @@
                 <h2>Customer Reviews</h2>
                 <div class="card mb-3">
                     <div class="card-body">
-                        <h5 class="card-title">Average Rating: ★★★★☆ (4.5)</h5>
-                        <p class="card-text">Total Reviews: 3</p>
+                        <h5 class="card-title">Average Rating: ★★★★☆ (4.0)</h5>
+                        <p class="card-text">Total Reviews: 4</p>
                     </div>
                 </div>
 
                 <div class="review">
-                    <h5>Jane Doe</h5>
+                    <h5>Eman Atif</h5>
                     <p>★★★★★</p>
                     <p>I absolutely love this lipstick! The color is stunning and it lasts all day.</p>
                 </div>
                 <div class="review">
-                    <h5>Emily Smith</h5>
+                    <h5>Duaa Khalid</h5>
                     <p>★★★★☆</p>
                     <p>Great product, but I wish it came in more shades!</p>
                 </div>
                 <div class="review">
-                    <h5>Maria Johnson</h5>
+                    <h5>Habiba Tanveer</h5>
                     <p>★★★★★</p>
                     <p>Best lipstick I've ever used! Highly recommend!</p>
+                </div>
+                <div class="review">
+                    <h5>Areeba Nasir</h5>
+                    <p>★★☆☆☆</p>
+                    <p>Worst lipstick ever!</p>
                 </div>
 
                 <!-- Add Review Form -->
