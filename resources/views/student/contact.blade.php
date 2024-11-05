@@ -18,7 +18,7 @@
     <section class="contact-form py-5">
         <div class="container">
             <h2 class="text-center">Contact Form</h2>
-            <form action="#" >
+            <form action="#" method="POST">
                 @csrf
                 <div class="row">
                     <div class="col-md-6 mb-4">
